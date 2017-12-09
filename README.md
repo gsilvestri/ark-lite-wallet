@@ -3,7 +3,7 @@
 
 ## Self Hosted on Github
 
-https://github.com/gsilvestri/kapu-lite-wallet/app
+https://gsilvestri.github.io/kapu-lite-wallet/app/
 
 ## Development
 
