@@ -11,7 +11,7 @@ const API_STATUS = '/api/loader/status'
 
 const REQUEST_TIMEOUT = 12000
 
-const TRANSACTION_HEADER_OS = 'ark-lite-wallet'
+const TRANSACTION_HEADER_OS = 'kapu-lite-wallet'
 const TRANSACTION_HEADER_PORT = '1'
 const TRANSACTION_HEADER_VERSION = require('../../../../package.json').version
 

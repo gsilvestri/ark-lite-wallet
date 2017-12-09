@@ -46,7 +46,7 @@ app.component('login', {
     go () {
       let passphrase = this.fix(this.input_passphrase)
       let kp = lisk.crypto.getKeys(passphrase)
-      this.address = lisk.crypto.getAddress(kp.publicKey)
+      this.address = lisk.crypto.getAddress(kp.publicKey,'0x2D')
       
       this.reset()
       this.$timeout(this.onLogin)

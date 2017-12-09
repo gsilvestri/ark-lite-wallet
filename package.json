@@ -1,9 +1,9 @@
 {
-  "name": "ark-nano-wallet",
+  "name": "kapu-lite-wallet",
   "version": "1.0.4",
-  "description": "Ark Nano Wallet",
-  "homepage": "https://github.com/ArkEcosystem/ark-nano-wallet",
-  "bugs": "https://github.com/ArkEcosystem/ark-nano-wallet/issues",
+  "description": "Kapu lite Wallet",
+  "homepage": "https://github.com/gsilvestri/kapu-lite-wallet",
+  "bugs": "https://github.com/gsilvestri/kapu-lite-wallet/issues",
   "scripts": {
     "start": "electron app",
     "dist": "npm run dist:macos && npm run dist:linux && npm run dist:win32 && npm run dist:win64",
@@ -22,11 +22,16 @@
       "name": "Ricardo Ferro",
       "email": "ricardo@lisk.io",
       "url": "https://github.com/rferro"
+    },
+    {
+      "name": "Giovanni Silvestri",
+      "email": "gsit80@gmail.com",
+      "ur": "https://github.com/gsilvestri"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArkEcosystem/ark-nano-wallet"
+    "url": "https://github.com/gsilvestri/kapu-lite-wallet"
   },
   "devDependencies": {
     "electron": "^1.4.15",
@@ -37,7 +42,7 @@
     "mac": {
       "category": "finance"
     },
-    "productName": "Ark Nano",
+    "productName": "Ark Lite",
     "win": {
       "target": "nsis"
     }
