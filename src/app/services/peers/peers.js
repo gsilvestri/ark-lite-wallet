@@ -10,7 +10,8 @@ app.factory('$peers', ($peer, $timeout) => {
     constructor () {
       this.stack = {
         official: [
-          new $peer({ host: 'walletapi.kapu.one', port: null, ssl: true })
+          new $peer({ host: 'walletapi.kapu.one', port: null, ssl: true }),
+          new $peer({ host: 'api.kapunode.net', port: null, ssl: true })          
         ],
         public: [],
         testnet: [

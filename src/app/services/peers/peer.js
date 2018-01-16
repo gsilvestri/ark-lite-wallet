@@ -124,7 +124,7 @@ app.factory('$peer', ($http, $log, $q, $timeout) => {
 
     sendTransaction (recipient, amount, smartbridge, passphrase, secondPassphrase) {
       let transaction
-
+      lisk.crypto.setNetworkVersion(0x2D)
       try {
         transaction = lisk.transaction.createTransaction(
           recipient,

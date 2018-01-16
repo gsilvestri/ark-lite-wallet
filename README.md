@@ -1,9 +1,10 @@
 
 # Kapu Lite Wallet
+![KAPU-LITE-WALLET](https://i.imgur.com/z3kHCDX.png)
 
 ## Self Hosted on Github
 
-https://gsilvestri.github.io/kapu-lite-wallet/app/
+https://lite.kapunode.net
 
 ## Development
 
