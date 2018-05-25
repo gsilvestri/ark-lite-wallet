@@ -10,7 +10,8 @@
     "dist:win64": "build --win --x64",
     "dist:win32": "build --win --ia32",
     "dist:macos": "build --macos",
-    "dist:linux": "build --linux"
+    "dist:linux": "build --linux",
+    "build": "cd src && npm run build"
   },
   "author": {
     "name": "Guillaume Verbal",
